@@ -70,7 +70,7 @@ class Quiz extends Component {
           })
         }
         clearTimeout(timeout);
-      }, 1000);
+      }, 500);
     } else {
       results[question.id] = 'error';
       this.setState({
