@@ -34,7 +34,7 @@
         transition: opacity .2s;
 
         &:hover,
-        &:active {
+        &.active {
           opacity: .7;
         }
       }
