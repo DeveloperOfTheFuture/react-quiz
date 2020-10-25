@@ -114,8 +114,10 @@ export default class Auth extends Component {
 
           <form className="AuthForm" onSubmit={this.submitHandler}>
             {this.renderInputs()}
-            <Button type="success" disabled={!this.state.isFormValid} onClick={this.loginHandler}>Войти</Button>
-            <Button type="primary" disabled={!this.state.isFormValid} onClick={this.registerHandler}>Зарегистрироваться</Button>
+            <Button type="success" disabled={!this.state.isFormValid}
+              onClick={this.loginHandler}>Войти</Button>
+            <Button type="primary" disabled={!this.state.isFormValid}
+              onClick={this.registerHandler}>Зарегистрироваться</Button>
           </form>
         </div>
       </div>
