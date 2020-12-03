@@ -1,4 +1,14 @@
+# Quiz Creator App
+
+Приложение для создания тестов на React. Есть возможность:
+ - проходить тесты;
+ - создавать тесты (для зарегистрированных пользовтелей);
+ - посмотреть результаты тесты;
+ - авторизоваться или зарегистрироваться.
+
 Адрес проекта - https://quiz-creator-react.firebaseapp.com/
+
+Ниже представлена инструкция по работе с проектом локально.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
